@@ -152,7 +152,6 @@ interface = gr.Interface(
     outputs=gr.Textbox(label="Assessment Result", lines=6),
     title="🏦 Loan Approval Prediction System",
     description=DESCRIPTION,
-    article=developer_info
 )
 # --------------------------------------------------------
 
