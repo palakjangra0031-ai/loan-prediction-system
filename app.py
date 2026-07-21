@@ -6,7 +6,7 @@ import gradio as gr
 # Load the trained model
 # ==========================================================
 try:
-    deployed_rf = joblib.load("loan_prediction_model.pkl")
+    deployed_rf = joblib.load("loan_prediction_model(1).pkl")
 except Exception as e:
     print(f"Warning: Model not found or error loading. {e}")
     deployed_rf = None
